@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TabBarScrollableViewController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+
+//    item.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: -5, right: 0)
+
+    window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+    if let window = window {
+
+      let items = ["ic_home", "ic_pin_drop", "ic_person"].enumerate().map { (pair) -> UITabBarItem in
+        let tbi = UITabBarItem(title: nil, image: UIImage(named: pair.element), tag: pair.index)
+        tbi.imageInsets = UIEdgeInsets(top: 5, left: 0, bottom: -5, right: 0)
+        return tbi
+      }
+
+      window.rootViewController = TabBarScrollableViewController(withViewControllers: [
+        FeedViewController(),
+        MapViewController(),
+        ProfileViewController()
+        ], andTabBarItems: items)
+      window.makeKeyAndVisible()
+    }
+    
+
+    // configure UIAppearance
+    //  UINavigationBar.appearance().barTintColor = .flatWhiteColor()
+    UINavigationBar.appearance().tintColor = .themeColor()
+    UINavigationBar.appearance().titleTextAttributes = [
+      NSForegroundColorAttributeName: UIColor.textColor(),
+      // NSFontAttributeName: UIFont.themeTitleFont()
+    ]
+
+    UITabBar.appearance().tintColor = .themeColor()
+
     return true
   }
 

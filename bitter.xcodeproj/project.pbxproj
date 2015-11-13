@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C93890641BF4F41C00BA8B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93890631BF4F41C00BA8B04 /* AppDelegate.swift */; };
-		C93890661BF4F41C00BA8B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93890651BF4F41C00BA8B04 /* ViewController.swift */; };
-		C93890691BF4F41C00BA8B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93890671BF4F41C00BA8B04 /* Main.storyboard */; };
 		C938906B1BF4F41C00BA8B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C938906A1BF4F41C00BA8B04 /* Assets.xcassets */; };
 		C938906E1BF4F41C00BA8B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C938906C1BF4F41C00BA8B04 /* LaunchScreen.storyboard */; };
+		C9A40AED1BF5DF9700D3C62B /* TabBarScrollableViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A40AEC1BF5DF9700D3C62B /* TabBarScrollableViewController.framework */; };
+		C9A40AF21BF5E39900D3C62B /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A40AF11BF5E39900D3C62B /* SnapKit.framework */; };
+		C9A40AF91BF5E85200D3C62B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40AF81BF5E85200D3C62B /* ProfileViewController.swift */; };
+		C9A40AFB1BF5E87200D3C62B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40AFA1BF5E87200D3C62B /* FeedViewController.swift */; };
+		C9A40AFD1BF5E87B00D3C62B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40AFC1BF5E87B00D3C62B /* MapViewController.swift */; };
+		C9A40B001BF5E8F100D3C62B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40AFF1BF5E8F100D3C62B /* Theme.swift */; };
+		C9A40B021BF5E93A00D3C62B /* UIColor+Chameleon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40B011BF5E93A00D3C62B /* UIColor+Chameleon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C93890601BF4F41C00BA8B04 /* bitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93890631BF4F41C00BA8B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C93890651BF4F41C00BA8B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C93890681BF4F41C00BA8B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C938906A1BF4F41C00BA8B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C938906D1BF4F41C00BA8B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C938906F1BF4F41C00BA8B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A40AEC1BF5DF9700D3C62B /* TabBarScrollableViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TabBarScrollableViewController.framework; path = "../TabBarScrollableViewController/build/Debug-iphoneos/TabBarScrollableViewController.framework"; sourceTree = "<group>"; };
+		C9A40AF11BF5E39900D3C62B /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		C9A40AF81BF5E85200D3C62B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C9A40AFA1BF5E87200D3C62B /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C9A40AFC1BF5E87B00D3C62B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C9A40AFF1BF5E8F100D3C62B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C9A40B011BF5E93A00D3C62B /* UIColor+Chameleon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Chameleon.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A40AED1BF5DF9700D3C62B /* TabBarScrollableViewController.framework in Frameworks */,
+				C9A40AF21BF5E39900D3C62B /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +50,8 @@
 		C93890571BF4F41C00BA8B04 = {
 			isa = PBXGroup;
 			children = (
+				C9A40AEC1BF5DF9700D3C62B /* TabBarScrollableViewController.framework */,
+				C9A40AF11BF5E39900D3C62B /* SnapKit.framework */,
 				C93890621BF4F41C00BA8B04 /* bitter */,
 				C93890611BF4F41C00BA8B04 /* Products */,
 			);
@@ -55,13 +69,56 @@
 			isa = PBXGroup;
 			children = (
 				C93890631BF4F41C00BA8B04 /* AppDelegate.swift */,
-				C93890651BF4F41C00BA8B04 /* ViewController.swift */,
-				C93890671BF4F41C00BA8B04 /* Main.storyboard */,
+				C9A40AF41BF5E81200D3C62B /* View Controllers */,
+				C9A40AFE1BF5E8DE00D3C62B /* Theme */,
 				C938906A1BF4F41C00BA8B04 /* Assets.xcassets */,
 				C938906C1BF4F41C00BA8B04 /* LaunchScreen.storyboard */,
 				C938906F1BF4F41C00BA8B04 /* Info.plist */,
 			);
 			path = bitter;
+			sourceTree = "<group>";
+		};
+		C9A40AF41BF5E81200D3C62B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A40AF71BF5E83F00D3C62B /* ProfileView View Controllers */,
+				C9A40AF61BF5E83000D3C62B /* FeedView View Controllers */,
+				C9A40AF51BF5E81F00D3C62B /* MapView View Controllers */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C9A40AF51BF5E81F00D3C62B /* MapView View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A40AFC1BF5E87B00D3C62B /* MapViewController.swift */,
+			);
+			name = "MapView View Controllers";
+			sourceTree = "<group>";
+		};
+		C9A40AF61BF5E83000D3C62B /* FeedView View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A40AFA1BF5E87200D3C62B /* FeedViewController.swift */,
+			);
+			name = "FeedView View Controllers";
+			sourceTree = "<group>";
+		};
+		C9A40AF71BF5E83F00D3C62B /* ProfileView View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9A40AF81BF5E85200D3C62B /* ProfileViewController.swift */,
+			);
+			name = "ProfileView View Controllers";
+			sourceTree = "<group>";
+		};
+		C9A40AFE1BF5E8DE00D3C62B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				C9A40AFF1BF5E8F100D3C62B /* Theme.swift */,
+				C9A40B011BF5E93A00D3C62B /* UIColor+Chameleon.swift */,
+			);
+			name = Theme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +131,7 @@
 				C938905C1BF4F41C00BA8B04 /* Sources */,
 				C938905D1BF4F41C00BA8B04 /* Frameworks */,
 				C938905E1BF4F41C00BA8B04 /* Resources */,
+				C9A40AF31BF5E3A000D3C62B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,33 +182,45 @@
 			files = (
 				C938906E1BF4F41C00BA8B04 /* LaunchScreen.storyboard in Resources */,
 				C938906B1BF4F41C00BA8B04 /* Assets.xcassets in Resources */,
-				C93890691BF4F41C00BA8B04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9A40AF31BF5E3A000D3C62B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C938905C1BF4F41C00BA8B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93890661BF4F41C00BA8B04 /* ViewController.swift in Sources */,
+				C9A40AF91BF5E85200D3C62B /* ProfileViewController.swift in Sources */,
+				C9A40AFB1BF5E87200D3C62B /* FeedViewController.swift in Sources */,
+				C9A40B001BF5E8F100D3C62B /* Theme.swift in Sources */,
 				C93890641BF4F41C00BA8B04 /* AppDelegate.swift in Sources */,
+				C9A40B021BF5E93A00D3C62B /* UIColor+Chameleon.swift in Sources */,
+				C9A40AFD1BF5E87B00D3C62B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C93890671BF4F41C00BA8B04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C93890681BF4F41C00BA8B04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C938906C1BF4F41C00BA8B04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,6 +319,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = bitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.bitter;
@@ -260,6 +334,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = bitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mat.tc.bitter;
@@ -286,6 +364,7 @@
 				C93890741BF4F41C00BA8B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
