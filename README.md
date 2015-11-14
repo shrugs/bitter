@@ -35,3 +35,4 @@ Random Notes for the Future:
 - our refresh slider should _definitely_ be a stretching bitter logo mmmmm
 - actually implement the MGLMapboxMetricsEnabled option in the app
 - put all of the map attribution information in the settings of the app
+- before open sourcing the app, remove my MapBox key from info.plist

@@ -14,6 +14,10 @@ extension UIColor {
     return .flatPinkColor()
   }
 
+  class func highlightColor() -> UIColor {
+    return .flatWhiteColor()
+  }
+
   class func darkThemeColor() -> UIColor {
     return .flatPinkColorDark()
   }

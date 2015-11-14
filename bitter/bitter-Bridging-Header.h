@@ -7,3 +7,4 @@
 //
 
 #import "MapBox.h"
+#import "FastttCamera.h"

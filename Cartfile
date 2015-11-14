@@ -1,1 +1,2 @@
 github "SnapKit/SnapKit" >= 0.15.0
+github "BradLarson/GPUImage" >= 0.1.7

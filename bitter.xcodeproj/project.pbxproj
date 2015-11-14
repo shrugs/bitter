@@ -30,7 +30,44 @@
 		C9A40B671BF5F0B500D3C62B /* BITRMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40B661BF5F0B500D3C62B /* BITRMapView.swift */; };
 		C9A40B6E1BF5F41500D3C62B /* StatusBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A40B6D1BF5F41500D3C62B /* StatusBarViews.swift */; };
 		C9FFA6851BF6FBD20099F95E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6841BF6FBD20099F95E /* MapViewController.swift */; };
+		C9FFA68A1BF709820099F95E /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6891BF709820099F95E /* MKLayer.swift */; };
+		C9FFA68C1BF709920099F95E /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA68B1BF709920099F95E /* MKButton.swift */; };
+		C9FFA68E1BF709B50099F95E /* BITRFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA68D1BF709B50099F95E /* BITRFloatingButton.swift */; };
+		C9FFA6901BF716240099F95E /* TabBarScrollableViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFA68F1BF716240099F95E /* TabBarScrollableViewController.framework */; };
+		C9FFA6911BF716240099F95E /* TabBarScrollableViewController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFA68F1BF716240099F95E /* TabBarScrollableViewController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9FFA6951BF718590099F95E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6941BF718590099F95E /* CameraViewController.swift */; };
+		C9FFA6B61BF71A430099F95E /* AVCaptureDevice+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6981BF71A430099F95E /* AVCaptureDevice+FastttCamera.m */; };
+		C9FFA6B71BF71A430099F95E /* FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA69A1BF71A430099F95E /* FastttCamera.m */; };
+		C9FFA6B81BF71A430099F95E /* FastttCapturedImage+Process.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA69E1BF71A430099F95E /* FastttCapturedImage+Process.m */; };
+		C9FFA6B91BF71A430099F95E /* FastttCapturedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6A01BF71A430099F95E /* FastttCapturedImage.m */; };
+		C9FFA6BA1BF71A430099F95E /* FastttFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6A21BF71A430099F95E /* FastttFocus.m */; };
+		C9FFA6BB1BF71A430099F95E /* FastttZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6A41BF71A430099F95E /* FastttZoom.m */; };
+		C9FFA6BC1BF71A430099F95E /* FastttEmptyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6A71BF71A430099F95E /* FastttEmptyFilter.m */; };
+		C9FFA6BD1BF71A430099F95E /* FastttFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6A91BF71A430099F95E /* FastttFilter.m */; };
+		C9FFA6BE1BF71A430099F95E /* FastttFilterCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6AB1BF71A430099F95E /* FastttFilterCamera.m */; };
+		C9FFA6BF1BF71A430099F95E /* FastttLookupFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6AD1BF71A430099F95E /* FastttLookupFilter.m */; };
+		C9FFA6C01BF71A430099F95E /* UIImage+FastttFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6AF1BF71A430099F95E /* UIImage+FastttFilters.m */; };
+		C9FFA6C11BF71A430099F95E /* IFTTTDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6B11BF71A430099F95E /* IFTTTDeviceOrientation.m */; };
+		C9FFA6C21BF71A430099F95E /* UIImage+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6B31BF71A430099F95E /* UIImage+FastttCamera.m */; };
+		C9FFA6C31BF71A430099F95E /* UIViewController+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6B51BF71A430099F95E /* UIViewController+FastttCamera.m */; };
+		C9FFA6C51BF71AF40099F95E /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FFA6C41BF71AF40099F95E /* GPUImage.framework */; };
+		C9FFA6C71BF71EE00099F95E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6C61BF71EE00099F95E /* MainViewController.swift */; };
+		C9FFA6C91BF71F100099F95E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFA6C81BF71F100099F95E /* Camera.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9FFA6921BF716240099F95E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9FFA6911BF716240099F95E /* TabBarScrollableViewController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C93890601BF4F41C00BA8B04 /* bitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +113,44 @@
 		C9A40B661BF5F0B500D3C62B /* BITRMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BITRMapView.swift; sourceTree = "<group>"; };
 		C9A40B6D1BF5F41500D3C62B /* StatusBarViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarViews.swift; sourceTree = "<group>"; };
 		C9FFA6841BF6FBD20099F95E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C9FFA6891BF709820099F95E /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		C9FFA68B1BF709920099F95E /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
+		C9FFA68D1BF709B50099F95E /* BITRFloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BITRFloatingButton.swift; sourceTree = "<group>"; };
+		C9FFA68F1BF716240099F95E /* TabBarScrollableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = TabBarScrollableViewController.framework; path = "/Users/matt/Library/Developer/Xcode/DerivedData/bitter-gxiikjwgjffwbnbdstdexttxihtt/Build/Products/Debug-iphoneos/TabBarScrollableViewController.framework"; sourceTree = "<absolute>"; };
+		C9FFA6941BF718590099F95E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C9FFA6971BF71A430099F95E /* AVCaptureDevice+FastttCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+FastttCamera.h"; sourceTree = "<group>"; };
+		C9FFA6981BF71A430099F95E /* AVCaptureDevice+FastttCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+FastttCamera.m"; sourceTree = "<group>"; };
+		C9FFA6991BF71A430099F95E /* FastttCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttCamera.h; sourceTree = "<group>"; };
+		C9FFA69A1BF71A430099F95E /* FastttCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttCamera.m; sourceTree = "<group>"; };
+		C9FFA69B1BF71A430099F95E /* FastttCameraInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttCameraInterface.h; sourceTree = "<group>"; };
+		C9FFA69C1BF71A430099F95E /* FastttCameraTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttCameraTypes.h; sourceTree = "<group>"; };
+		C9FFA69D1BF71A430099F95E /* FastttCapturedImage+Process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FastttCapturedImage+Process.h"; sourceTree = "<group>"; };
+		C9FFA69E1BF71A430099F95E /* FastttCapturedImage+Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FastttCapturedImage+Process.m"; sourceTree = "<group>"; };
+		C9FFA69F1BF71A430099F95E /* FastttCapturedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttCapturedImage.h; sourceTree = "<group>"; };
+		C9FFA6A01BF71A430099F95E /* FastttCapturedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttCapturedImage.m; sourceTree = "<group>"; };
+		C9FFA6A11BF71A430099F95E /* FastttFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttFocus.h; sourceTree = "<group>"; };
+		C9FFA6A21BF71A430099F95E /* FastttFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttFocus.m; sourceTree = "<group>"; };
+		C9FFA6A31BF71A430099F95E /* FastttZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttZoom.h; sourceTree = "<group>"; };
+		C9FFA6A41BF71A430099F95E /* FastttZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttZoom.m; sourceTree = "<group>"; };
+		C9FFA6A61BF71A430099F95E /* FastttEmptyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttEmptyFilter.h; sourceTree = "<group>"; };
+		C9FFA6A71BF71A430099F95E /* FastttEmptyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttEmptyFilter.m; sourceTree = "<group>"; };
+		C9FFA6A81BF71A430099F95E /* FastttFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttFilter.h; sourceTree = "<group>"; };
+		C9FFA6A91BF71A430099F95E /* FastttFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttFilter.m; sourceTree = "<group>"; };
+		C9FFA6AA1BF71A430099F95E /* FastttFilterCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttFilterCamera.h; sourceTree = "<group>"; };
+		C9FFA6AB1BF71A430099F95E /* FastttFilterCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttFilterCamera.m; sourceTree = "<group>"; };
+		C9FFA6AC1BF71A430099F95E /* FastttLookupFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastttLookupFilter.h; sourceTree = "<group>"; };
+		C9FFA6AD1BF71A430099F95E /* FastttLookupFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastttLookupFilter.m; sourceTree = "<group>"; };
+		C9FFA6AE1BF71A430099F95E /* UIImage+FastttFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FastttFilters.h"; sourceTree = "<group>"; };
+		C9FFA6AF1BF71A430099F95E /* UIImage+FastttFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FastttFilters.m"; sourceTree = "<group>"; };
+		C9FFA6B01BF71A430099F95E /* IFTTTDeviceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTDeviceOrientation.h; sourceTree = "<group>"; };
+		C9FFA6B11BF71A430099F95E /* IFTTTDeviceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTDeviceOrientation.m; sourceTree = "<group>"; };
+		C9FFA6B21BF71A430099F95E /* UIImage+FastttCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FastttCamera.h"; sourceTree = "<group>"; };
+		C9FFA6B31BF71A430099F95E /* UIImage+FastttCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FastttCamera.m"; sourceTree = "<group>"; };
+		C9FFA6B41BF71A430099F95E /* UIViewController+FastttCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FastttCamera.h"; sourceTree = "<group>"; };
+		C9FFA6B51BF71A430099F95E /* UIViewController+FastttCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FastttCamera.m"; sourceTree = "<group>"; };
+		C9FFA6C41BF71AF40099F95E /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Carthage/Build/iOS/GPUImage.framework; sourceTree = "<group>"; };
+		C9FFA6C61BF71EE00099F95E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C9FFA6C81BF71F100099F95E /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +164,10 @@
 				C9A40B081BF5EDCA00D3C62B /* ImageIO.framework in Frameworks */,
 				C9A40B061BF5EDC600D3C62B /* GLKit.framework in Frameworks */,
 				C9A40B041BF5EDBB00D3C62B /* CoreTelephony.framework in Frameworks */,
+				C9FFA6C51BF71AF40099F95E /* GPUImage.framework in Frameworks */,
 				C9A40B5F1BF5EEBD00D3C62B /* libMapbox.a in Frameworks */,
 				C9A40AED1BF5DF9700D3C62B /* TabBarScrollableViewController.framework in Frameworks */,
+				C9FFA6901BF716240099F95E /* TabBarScrollableViewController.framework in Frameworks */,
 				C9A40AF21BF5E39900D3C62B /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +178,7 @@
 		C93890571BF4F41C00BA8B04 = {
 			isa = PBXGroup;
 			children = (
+				C9FFA68F1BF716240099F95E /* TabBarScrollableViewController.framework */,
 				C9A40B0F1BF5EEBD00D3C62B /* mapbox-ios-sdk-3.0.0-pre.5 */,
 				C9A40B0D1BF5EDDA00D3C62B /* SystemConfiguration.framework */,
 				C9A40B0B1BF5EDD600D3C62B /* QuartzCore.framework */,
@@ -109,7 +187,9 @@
 				C9A40B051BF5EDC600D3C62B /* GLKit.framework */,
 				C9A40B031BF5EDBB00D3C62B /* CoreTelephony.framework */,
 				C9A40AEC1BF5DF9700D3C62B /* TabBarScrollableViewController.framework */,
+				C9FFA6C41BF71AF40099F95E /* GPUImage.framework */,
 				C9A40AF11BF5E39900D3C62B /* SnapKit.framework */,
+				C9FFA6961BF71A430099F95E /* FastttCamera */,
 				C93890621BF4F41C00BA8B04 /* bitter */,
 				C93890611BF4F41C00BA8B04 /* Products */,
 			);
@@ -127,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				C93890631BF4F41C00BA8B04 /* AppDelegate.swift */,
+				C9FFA6C61BF71EE00099F95E /* MainViewController.swift */,
 				C9A40AF41BF5E81200D3C62B /* View Controllers */,
 				C9A40B681BF5F30800D3C62B /* UI Helpers */,
 				C938906A1BF4F41C00BA8B04 /* Assets.xcassets */,
@@ -140,6 +221,7 @@
 		C9A40AF41BF5E81200D3C62B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C9FFA6931BF7183B0099F95E /* Camera View Controllers */,
 				C9A40AF61BF5E83000D3C62B /* FeedView View Controllers */,
 				C9A40AF51BF5E81F00D3C62B /* MapView View Controllers */,
 				C9A40AF71BF5E83F00D3C62B /* ProfileView View Controllers */,
@@ -220,6 +302,7 @@
 		C9A40B681BF5F30800D3C62B /* UI Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C9FFA6881BF709780099F95E /* Material Kit */,
 				C9A40B6F1BF5F59F00D3C62B /* Custom Components */,
 				C9A40AFE1BF5E8DE00D3C62B /* Theme */,
 				C9A40B6D1BF5F41500D3C62B /* StatusBarViews.swift */,
@@ -231,8 +314,72 @@
 			isa = PBXGroup;
 			children = (
 				C9A40B661BF5F0B500D3C62B /* BITRMapView.swift */,
+				C9FFA68D1BF709B50099F95E /* BITRFloatingButton.swift */,
 			);
 			name = "Custom Components";
+			sourceTree = "<group>";
+		};
+		C9FFA6881BF709780099F95E /* Material Kit */ = {
+			isa = PBXGroup;
+			children = (
+				C9FFA6891BF709820099F95E /* MKLayer.swift */,
+				C9FFA68B1BF709920099F95E /* MKButton.swift */,
+			);
+			name = "Material Kit";
+			sourceTree = "<group>";
+		};
+		C9FFA6931BF7183B0099F95E /* Camera View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9FFA6C81BF71F100099F95E /* Camera.swift */,
+				C9FFA6941BF718590099F95E /* CameraViewController.swift */,
+			);
+			name = "Camera View Controllers";
+			sourceTree = "<group>";
+		};
+		C9FFA6961BF71A430099F95E /* FastttCamera */ = {
+			isa = PBXGroup;
+			children = (
+				C9FFA6971BF71A430099F95E /* AVCaptureDevice+FastttCamera.h */,
+				C9FFA6981BF71A430099F95E /* AVCaptureDevice+FastttCamera.m */,
+				C9FFA6991BF71A430099F95E /* FastttCamera.h */,
+				C9FFA69A1BF71A430099F95E /* FastttCamera.m */,
+				C9FFA69B1BF71A430099F95E /* FastttCameraInterface.h */,
+				C9FFA69C1BF71A430099F95E /* FastttCameraTypes.h */,
+				C9FFA69D1BF71A430099F95E /* FastttCapturedImage+Process.h */,
+				C9FFA69E1BF71A430099F95E /* FastttCapturedImage+Process.m */,
+				C9FFA69F1BF71A430099F95E /* FastttCapturedImage.h */,
+				C9FFA6A01BF71A430099F95E /* FastttCapturedImage.m */,
+				C9FFA6A11BF71A430099F95E /* FastttFocus.h */,
+				C9FFA6A21BF71A430099F95E /* FastttFocus.m */,
+				C9FFA6A31BF71A430099F95E /* FastttZoom.h */,
+				C9FFA6A41BF71A430099F95E /* FastttZoom.m */,
+				C9FFA6A51BF71A430099F95E /* Filters */,
+				C9FFA6B01BF71A430099F95E /* IFTTTDeviceOrientation.h */,
+				C9FFA6B11BF71A430099F95E /* IFTTTDeviceOrientation.m */,
+				C9FFA6B21BF71A430099F95E /* UIImage+FastttCamera.h */,
+				C9FFA6B31BF71A430099F95E /* UIImage+FastttCamera.m */,
+				C9FFA6B41BF71A430099F95E /* UIViewController+FastttCamera.h */,
+				C9FFA6B51BF71A430099F95E /* UIViewController+FastttCamera.m */,
+			);
+			path = FastttCamera;
+			sourceTree = "<group>";
+		};
+		C9FFA6A51BF71A430099F95E /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				C9FFA6A61BF71A430099F95E /* FastttEmptyFilter.h */,
+				C9FFA6A71BF71A430099F95E /* FastttEmptyFilter.m */,
+				C9FFA6A81BF71A430099F95E /* FastttFilter.h */,
+				C9FFA6A91BF71A430099F95E /* FastttFilter.m */,
+				C9FFA6AA1BF71A430099F95E /* FastttFilterCamera.h */,
+				C9FFA6AB1BF71A430099F95E /* FastttFilterCamera.m */,
+				C9FFA6AC1BF71A430099F95E /* FastttLookupFilter.h */,
+				C9FFA6AD1BF71A430099F95E /* FastttLookupFilter.m */,
+				C9FFA6AE1BF71A430099F95E /* UIImage+FastttFilters.h */,
+				C9FFA6AF1BF71A430099F95E /* UIImage+FastttFilters.m */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +393,7 @@
 				C938905D1BF4F41C00BA8B04 /* Frameworks */,
 				C938905E1BF4F41C00BA8B04 /* Resources */,
 				C9A40AF31BF5E3A000D3C62B /* ShellScript */,
+				C9FFA6921BF716240099F95E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,6 +464,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/GPUImage.framework",
 			);
 			outputPaths = (
 			);
@@ -330,14 +479,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FFA6B61BF71A430099F95E /* AVCaptureDevice+FastttCamera.m in Sources */,
 				C9A40AF91BF5E85200D3C62B /* ProfileViewController.swift in Sources */,
+				C9FFA6BB1BF71A430099F95E /* FastttZoom.m in Sources */,
+				C9FFA68A1BF709820099F95E /* MKLayer.swift in Sources */,
+				C9FFA6C11BF71A430099F95E /* IFTTTDeviceOrientation.m in Sources */,
 				C9A40B621BF5EEBD00D3C62B /* MGLDummy.m in Sources */,
+				C9FFA6BF1BF71A430099F95E /* FastttLookupFilter.m in Sources */,
 				C9A40AFB1BF5E87200D3C62B /* FeedViewController.swift in Sources */,
+				C9FFA6BE1BF71A430099F95E /* FastttFilterCamera.m in Sources */,
+				C9FFA6B91BF71A430099F95E /* FastttCapturedImage.m in Sources */,
+				C9FFA6BD1BF71A430099F95E /* FastttFilter.m in Sources */,
 				C9FFA6851BF6FBD20099F95E /* MapViewController.swift in Sources */,
 				C9A40B001BF5E8F100D3C62B /* Theme.swift in Sources */,
+				C9FFA6C71BF71EE00099F95E /* MainViewController.swift in Sources */,
+				C9FFA6BA1BF71A430099F95E /* FastttFocus.m in Sources */,
 				C93890641BF4F41C00BA8B04 /* AppDelegate.swift in Sources */,
+				C9FFA6BC1BF71A430099F95E /* FastttEmptyFilter.m in Sources */,
+				C9FFA6B71BF71A430099F95E /* FastttCamera.m in Sources */,
+				C9FFA68C1BF709920099F95E /* MKButton.swift in Sources */,
+				C9FFA68E1BF709B50099F95E /* BITRFloatingButton.swift in Sources */,
 				C9A40B021BF5E93A00D3C62B /* UIColor+Chameleon.swift in Sources */,
 				C9A40B671BF5F0B500D3C62B /* BITRMapView.swift in Sources */,
+				C9FFA6C31BF71A430099F95E /* UIViewController+FastttCamera.m in Sources */,
+				C9FFA6C01BF71A430099F95E /* UIImage+FastttFilters.m in Sources */,
+				C9FFA6B81BF71A430099F95E /* FastttCapturedImage+Process.m in Sources */,
+				C9FFA6951BF718590099F95E /* CameraViewController.swift in Sources */,
+				C9FFA6C91BF71F100099F95E /* Camera.swift in Sources */,
+				C9FFA6C21BF71A430099F95E /* UIImage+FastttCamera.m in Sources */,
 				C9A40AFD1BF5E87B00D3C62B /* MapViewNavigationController.swift in Sources */,
 				C9A40B6E1BF5F41500D3C62B /* StatusBarViews.swift in Sources */,
 			);
@@ -393,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -432,7 +601,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

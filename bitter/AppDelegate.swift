@@ -44,9 +44,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // configure UIAppearance
     UINavigationBar.appearance().barTintColor = .themeColor()
-    UINavigationBar.appearance().tintColor = .textColor()
+    UINavigationBar.appearance().tintColor = .highlightColor()
     UINavigationBar.appearance().titleTextAttributes = [
-      NSForegroundColorAttributeName: UIColor.textColor(),
+      NSForegroundColorAttributeName: UIColor.highlightColor(),
       // NSFontAttributeName: UIFont.themeTitleFont()
     ]
 

@@ -13,6 +13,8 @@ class BITRMapView: MGLMapView {
     super.init(frame: CGRect(x: 0, y: 0, width: 1, height: 1), styleURL: NSURL(string: "mapbox://styles/mapbox/emerald-v8"))
     self.attributionButton.alpha = 0
     self.logoView.alpha = 0
+    self.showsUserLocation = true
+    self.userTrackingMode = .Follow
   }
 
   required init?(coder aDecoder: NSCoder) {
