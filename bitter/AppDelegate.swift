@@ -32,16 +32,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
       window.rootViewController = TabBarScrollableViewController(withViewControllers: [
         FeedViewController(),
-        MapViewController(),
+        MapViewNavigationController(),
         ProfileViewController()
-        ], andTabBarItems: items)
+        ],
+        tabBarItems: items,
+        andSelectedItem: 0
+      )
       window.makeKeyAndVisible()
     }
     
 
     // configure UIAppearance
-    //  UINavigationBar.appearance().barTintColor = .flatWhiteColor()
-    UINavigationBar.appearance().tintColor = .themeColor()
+    UINavigationBar.appearance().barTintColor = .themeColor()
+    UINavigationBar.appearance().tintColor = .textColor()
     UINavigationBar.appearance().titleTextAttributes = [
       NSForegroundColorAttributeName: UIColor.textColor(),
       // NSFontAttributeName: UIFont.themeTitleFont()

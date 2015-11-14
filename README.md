@@ -7,6 +7,7 @@ Complete iOS feature set:
 - pretty intro
     + either a simple page view controller with pictures
     + or a really nice RazzleDazzle intro, time permitting
+    + also use the intro to enable camera/location permissions
 - log in with Facebook & Twitter, saved to the db
     + auto-suggest people to follow based on Twitter mutual followers and Facebook friends that also use the app
     + can add email/password later, but fuck that
@@ -32,4 +33,5 @@ Complete iOS feature set:
 Random Notes for the Future:
 
 - our refresh slider should _definitely_ be a stretching bitter logo mmmmm
-- 
+- actually implement the MGLMapboxMetricsEnabled option in the app
+- put all of the map attribution information in the settings of the app

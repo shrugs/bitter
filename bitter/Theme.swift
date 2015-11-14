@@ -29,3 +29,7 @@ extension UIFont {
     return UIFont.systemFontOfSize(UIFont.systemFontSize())
   }
 }
+
+extension UINavigationController {
+  
+}
